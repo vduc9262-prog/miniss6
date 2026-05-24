@@ -1,4 +1,3 @@
-
 laptop = 0
 phone = 0
 tablet = 0
@@ -20,6 +19,23 @@ while True:
         print(f"Laptop:             {laptop}")
         print(f"Điện thoại:         {phone}")
         print(f"Máy tính bảng:       {tablet}")
+        
+        print("\n BIỂU ĐỒ TỒN KHO ")
+        
+        print("Laptop ", laptop, ":", end="")
+        for i in range(laptop):
+            print("*", end="")
+        print()
+        
+        print("Điện thoại ", phone, ":", end="")
+        for i in range(phone):
+            print("*", end="")
+        print()
+        
+        print("Máy tính bảng", tablet, ":", end="")
+        for i in range(tablet):
+            print("*", end="")
+        print()
 
     elif choice == "2":
         print("\nNHẬP KHO")

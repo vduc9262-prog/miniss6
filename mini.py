@@ -104,17 +104,17 @@ while True:
 
         print("CẢNH BÁO TỒN KHO THẤP")
         
-        warning = False
+
         
         if laptop < 10:
             print(f" laptop sắp hết (Chỉ còn {laptop} sản phẩm)")
-            warning = True
+       
         if phone < 10:
             print(f" điện thoại sắp hết (Chỉ còn {phone} sản phẩm)")
-            warning = True
+   
         if tablet < 10:
             print(f" máy tính bảng sắp hết (Chỉ còn {tablet} sản phẩm)")
-            warning = True
+     
             
     elif choice == "5":
         print("\n thoát chương trình")

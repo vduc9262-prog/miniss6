@@ -15,12 +15,9 @@ while True:
     choice = input("Nhập lựa chọn (1-5): ").strip()
 
     if choice == "1":
-        print(" BÁO CÁO TỒN KHO")
-        print(f"Laptop:             {laptop}")
-        print(f"Điện thoại:         {phone}")
-        print(f"Máy tính bảng:       {tablet}")
+     
         
-        print("\n BIỂU ĐỒ TỒN KHO ")
+        print(" BIỂU ĐỒ TỒN KHO ")
         
         print("Laptop ", laptop, ":", end="")
         for i in range(laptop):
